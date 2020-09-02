@@ -67,3 +67,12 @@ All APIs can only be accessed via this link
 ##### 6. PATCH '/movies/<int:id>'
 ##### 7. DELETE '/actors/<int:id>'
 ##### 8. DELETE '/movies/<int:id>'
+
+### Authentification
+
+The Application has 3 roles. 
+- Casting Assistant
+- Casting Director 
+- Executive Producer
+
+Their Tokeans are stored in (/test_app.py)
