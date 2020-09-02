@@ -4,10 +4,11 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import date
 import json
 
-#database_path = os.environ['DATABASE_URL']
-database_name = "casting_agency"
-#database_path='postgres://{}:{}@{}/{}'.format('postgres', 'postgres', 'localhost:5432', database_name)
-database_path = "postgres://{}/{}".format('localhost:5432', database_name)
+
+#database_name = "casting_agency"
+#database_path = "postgres://{}/{}".format('localhost:5432', database_name)
+
+database_path = 'postgres://rxbsguxnsymcov:6bed9b30365d5bd1596df2596d250e41bcbb4c12b8071334f0bb9737c644ad30@ec2-52-0-155-79.compute-1.amazonaws.com:5432/d48tg9jveg92g6'
 
 db = SQLAlchemy()
 
